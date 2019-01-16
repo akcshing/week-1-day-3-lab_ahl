@@ -8,3 +8,11 @@ def add_array_lengths(array_1, array_2)
   end
   return fruit_total
 end
+
+def sum_array(array)
+  sum_total_of_array = 0
+  for number in array
+    sum_total_of_array += number
+  end
+  return sum_total_of_array
+end
