@@ -4,7 +4,7 @@ require_relative( '../my_functions' )
 
 class MyFunctionsSpec < MiniTest::Test
 
-  # Write a function that takes has two parameters, array1 and array2
+  # Write a function that takes two parameters, array_1 and array_2
   # It should return the sum of the array lengths
 
   def test_add_length_of_arrays
