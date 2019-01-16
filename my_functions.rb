@@ -25,3 +25,11 @@ def find_item(array, look_for)
   end
   return false
 end
+
+def get_first_key(hash)
+  hash_array = []
+  for item in hash
+    hash_array.push(item)
+  end
+  return hash_array[0][0]
+end
