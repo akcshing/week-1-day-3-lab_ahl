@@ -16,3 +16,12 @@ def sum_array(array)
   end
   return sum_total_of_array
 end
+
+def find_item(array, look_for)
+  for house in array
+    if house == look_for
+      return true
+    end
+  end
+  return false
+end

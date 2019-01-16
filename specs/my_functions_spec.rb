@@ -21,7 +21,7 @@ class MyFunctionsSpec < MiniTest::Test
 
   # Write a function that has a parameter named numbers
   # It should return the sum value of an array passed as the argument
-  
+
   def test_sum_array
     # arrange
     numbers = [ 1, 2, 3, 4, 5 ]
@@ -33,17 +33,17 @@ class MyFunctionsSpec < MiniTest::Test
 
   ################################################################
 
-  # # Write a function that has two parameters, array and item
-  # # It should return true if the item exists in the array otherwise it should return false
-  #
-  # def test_find_item_true
-  #   # arrange
-  #   houses = [ "Hufflepuff", "Slytherin", "Gryffindor", "Ravenclaw" ]
-  #   # act
-  #   result = find_item( houses, "Ravenclaw" )
-  #   # assert
-  #   assert_equal( true, result )
-  # end
+  # Write a function that has two parameters, array and item
+  # It should return true if the item exists in the array otherwise it should return false
+
+  def test_find_item_true
+    # arrange
+    houses = [ "Hufflepuff", "Slytherin", "Gryffindor", "Ravenclaw" ]
+    # act
+    result = find_item( houses, "Ravenclaw" )
+    # assert
+    assert_equal( true, result )
+  end
 
   # def test_find_item_false
   #   # arrange
